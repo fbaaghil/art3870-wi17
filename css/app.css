@@ -5,15 +5,15 @@
 /* main body styles*/
 /* footer styles */
 
-h1, h6 {font-family: cursive;}
+h1, h6 {font-family: 'Open Sans', sans-serif;}
 
 nav {}
   header{}
-  header h1 {color:red; background-color: yellow;}
+  header h1 {color:black; background-color: white;}
 
 footer{}
 
 
 
-* {outline: 1px solid red;
+* {outline: 1px solid black;
 }
