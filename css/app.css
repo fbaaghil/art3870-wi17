@@ -1,19 +1,26 @@
 /* this is my stylesheet for my homepage */
 
-/* table of contents */
+
 /* header styles */
-/* main body styles*/
-/* footer styles */
-
-h1, h6 {font-family: 'Open Sans', sans-serif;}
-
-nav {}
-  header{}
-  header h1 {color:black; background-color: white;}
-
-footer{}
+h1, h6 , footer {font-family: 'Open Sans', sans-serif;}
+nav { text-align: right;}
+  header h1 nav h4{color: black; background-color: white;}
+  a {color: #dbab27; background-color: black;}
+  h5 {color: #dbab27;}
+  h4 {color: #dbab27;}
 
 
+  /* main body styles*/
+  body {color:white; background-color: black;}
 
-* {outline: 1px solid black;
-}
+
+
+/* space between rows styles*/
+  .space{ margin-bottom: 3em;}
+
+
+/* image align*/
+  img.align-right{
+    float: right;
+    margin-left: 10px;
+  }
